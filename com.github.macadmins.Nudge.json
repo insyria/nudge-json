@@ -1,0 +1,127 @@
+{
+    "optionalFeatures": {
+        "acceptableApplicationBundleIDs": [
+            "us.zoom.xos",
+            "com.cisco.webexmeetingsapp"
+        ],
+        "acceptableAssertionUsage": false,
+        "acceptableAssertionApplicationNames": [
+            "zoom.us",
+            "Meeting Center"
+        ],
+        "acceptableCameraUsage": false,
+        "acceptableScreenSharingUsage": false,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "asynchronousSoftwareUpdate": true,
+        "attemptToFetchMajorUpgrade": true,
+        "attemptToBlockApplicationLaunches": true,
+        "blockedApplicationBundleIDs": [
+            "com.apple.ColorSyncUtility",
+            "com.apple.DigitalColorMeter"
+            ],
+        "disableSoftwareUpdateWorkflow": false,
+        "enforceMinorUpdates": true,
+        "terminateApplicationsOnLaunch": true
+    },
+    "osVersionRequirements": [
+        {
+        "aboutUpdateURLs": [
+            {
+            "_language": "en",
+            "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos116"
+            }
+        ],
+        "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
+        "requiredInstallationDate": "2023-09-27T10:00:00Z",
+        "requiredMinimumOSVersion": "11.7.10",
+        "targetedOSVersionsRule": "11"
+        },
+        {
+        "aboutUpdateURLs": [
+            {
+            "_language": "en",
+            "aboutUpdateURL": "https://www.apple.com/macos/monterey/"
+            }
+        ],
+        "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
+        "requiredInstallationDate": "2024-05-22T10:00:00Z",
+        "requiredMinimumOSVersion": "12.7.5",
+        "targetedOSVersionsRule": "12"
+        },
+        {
+        "aboutUpdateURLs": [
+            {
+            "_language": "en",
+            "aboutUpdateURL": "https://www.apple.com/macos/ventura/"
+            }
+        ],
+        "majorUpgradeAppPath": "/Applications/Install macOS Ventura.app",
+        "requiredInstallationDate": "2024-05-22T10:00:00Z",
+        "requiredMinimumOSVersion": "13.6.7",
+        "targetedOSVersionsRule": "13"
+        },
+        {
+        "aboutUpdateURLs": [
+            {
+            "_language": "en",
+            "aboutUpdateURL": "https://www.apple.com/macos/sonoma/"
+            }
+        ],
+        "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
+        "requiredInstallationDate": "2024-05-22T10:00:00Z",
+        "requiredMinimumOSVersion": "14.5",
+        "targetedOSVersionsRule": "14"
+        }
+    ],
+    "userExperience": {
+        "allowGracePeriods": false,
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 1000000,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+        "approachingRefreshCycle": 6000,
+        "approachingWindowTime": 72,
+        "elapsedRefreshCycle": 300,
+        "gracePeriodInstallDelay": 23,
+        "gracePeriodLaunchDelay": 1,
+        "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+        "imminentRefreshCycle": 600,
+        "imminentWindowTime": 24,
+        "initialRefreshCycle": 18000,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 60,
+        "randomDelay": false
+    },
+    "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
+        "iconDarkPath": "/Library/Management/in2cpc-white.png",
+        "iconLightPath": "/Library/Management/in2cpc.png",
+        "screenShotDarkPath": "/somewhere/screenShotDark.png",
+        "screenShotLightPath": "/somewhere/screenShotLight.png",
+        "showDeferralCount": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+        {
+            "_language": "en",
+            "actionButtonText": "Update Device",
+            "customDeferralButtonText": "Custom",
+            "informationButtonText": "More Info",
+            "mainContentHeader": "Your device will restart during this update",
+            "mainContentNote": "Important Notes",
+            "mainContentSubHeader": "Updates can take around 30 minutes to complete",
+            "mainContentText": "A fully up-to-date device is required to ensure that IT can accurately protect your device.\n\nIf you do not update your device, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Update Device button and follow the provided steps.",
+            "mainHeader": "Your device requires a security update",
+            "oneDayDeferralButtonText": "One Day",
+            "oneHourDeferralButtonText": "One Hour",
+            "primaryQuitButtonText": "Later",
+            "secondaryQuitButtonText": "I understand",
+            "subHeader": "A friendly reminder from your local IT team"
+
+        }
+        ]
+    }
+}
