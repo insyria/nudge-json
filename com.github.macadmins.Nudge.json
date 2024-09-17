@@ -69,15 +69,27 @@
             }
         ],
         "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
-        "requiredInstallationDate": "2024-08-13T10:00:00Z",
-        "requiredMinimumOSVersion": "14.6.1",
+        "requiredInstallationDate": "2024-09-23T10:00:00Z",
+        "requiredMinimumOSVersion": "14.7",
         "targetedOSVersionsRule": "14"
-        }
+        },
+        {
+            "aboutUpdateURLs": [
+                {
+                "_language": "en",
+                "aboutUpdateURL": "https://www.apple.com/macos/macos-sequoia/"
+                }
+            ],
+            "majorUpgradeAppPath": "/Applications/Install macOS Sequoia.app",
+            "requiredInstallationDate": "2024-10-15T10:00:00Z",
+            "requiredMinimumOSVersion": "15.0",
+            "targetedOSVersionsRule": "15"
+            }
     ],
     "userExperience": {
         "allowGracePeriods": false,
         "allowUserQuitDeferrals": true,
-        "allowedDeferrals": 1000000,
+        "allowedDeferrals": 25,
         "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
         "approachingRefreshCycle": 6000,
         "approachingWindowTime": 72,
