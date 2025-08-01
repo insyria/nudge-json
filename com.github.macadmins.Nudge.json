@@ -58,7 +58,7 @@
         ],
         "majorUpgradeAppPath": "/Applications/Install macOS Ventura.app",
         "requiredInstallationDate": "2025-05-18T10:00:00Z",
-        "requiredMinimumOSVersion": "13.7.6",
+        "requiredMinimumOSVersion": "13.7.7",
         "targetedOSVersionsRule": "13"
         },
         {
@@ -70,7 +70,7 @@
         ],
         "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
         "requiredInstallationDate": "2025-05-18T10:00:00Z",
-        "requiredMinimumOSVersion": "14.7.6",
+        "requiredMinimumOSVersion": "14.7.7",
         "targetedOSVersionsRule": "14"
         },
         {
@@ -81,8 +81,8 @@
                 }
             ],
             "majorUpgradeAppPath": "/Applications/Install macOS Sequoia.app",
-            "requiredInstallationDate": "2025-05-18T10:00:00Z",
-            "requiredMinimumOSVersion": "15.5",
+            "requiredInstallationDate": "2025-08-08T10:00:00Z",
+            "requiredMinimumOSVersion": "15.6",
             "targetedOSVersionsRule": "15"
             }
     ],
