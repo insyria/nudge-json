@@ -26,65 +26,29 @@
     },
     "osVersionRequirements": [
         {
-        "aboutUpdateURLs": [
-            {
-            "_language": "en",
-            "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos116"
-            }
-        ],
-        "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
-        "requiredInstallationDate": "2023-09-27T10:00:00Z",
-        "requiredMinimumOSVersion": "11.7.10",
-        "targetedOSVersionsRule": "11"
-        },
-        {
-        "aboutUpdateURLs": [
-            {
-            "_language": "en",
-            "aboutUpdateURL": "https://www.apple.com/macos/monterey/"
-            }
-        ],
-        "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
-        "requiredInstallationDate": "2025-02-05T10:00:00Z",
-        "requiredMinimumOSVersion": "12.7.6",
-        "targetedOSVersionsRule": "12"
-        },
-        {
-        "aboutUpdateURLs": [
-            {
-            "_language": "en",
-            "aboutUpdateURL": "https://www.apple.com/macos/ventura/"
-            }
-        ],
-        "majorUpgradeAppPath": "/Applications/Install macOS Ventura.app",
-        "requiredInstallationDate": "2025-09-23T10:00:00Z",
-        "requiredMinimumOSVersion": "13.7.8",
-        "targetedOSVersionsRule": "13"
-        },
-        {
-        "aboutUpdateURLs": [
-            {
-            "_language": "en",
-            "aboutUpdateURL": "https://www.apple.com/macos/sonoma/"
-            }
-        ],
-        "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
-        "requiredInstallationDate": "2025-09-23T10:00:00Z",
-        "requiredMinimumOSVersion": "14.8",
-        "targetedOSVersionsRule": "14"
-        },
-        {
             "aboutUpdateURLs": [
                 {
                 "_language": "en",
-                "aboutUpdateURL": "https://www.apple.com/macos/macos-sequoia/"
+                "aboutUpdateURL": "https://www.apple.com/os/macos/"
                 }
             ],
             "majorUpgradeAppPath": "/Applications/Install macOS Sequoia.app",
-            "requiredInstallationDate": "2025-09-23T10:00:00Z",
-            "requiredMinimumOSVersion": "15.7",
+            "requiredInstallationDate": "2025-11-10T10:00:00Z",
+            "requiredMinimumOSVersion": "15.7.2",
             "targetedOSVersionsRule": "15"
+            },
+        {
+        "aboutUpdateURLs": [
+            {
+            "_language": "en",
+            "aboutUpdateURL": "https://www.apple.com/os/macos/"
             }
+        ],
+        "majorUpgradeAppPath": "/Applications/Install macOS Tahoe.app",
+        "requiredInstallationDate": "2025-11-10T10:00:00Z",
+        "requiredMinimumOSVersion": "26.1",
+        "targetedOSVersionsRule": "26"
+        }
     ],
     "userExperience": {
         "allowGracePeriods": false,
